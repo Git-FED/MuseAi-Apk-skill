@@ -1,0 +1,11 @@
+{
+  "sdk_root": "~/Android/Sdk",
+  "avd_name": "apk-tester-phone",
+  "system_image": "system-images;android-34;google_apis;x86_64",
+  "emulator_port": 5554,
+  "boot_timeout_seconds": 180,
+  "screenshot_dir": "output/screenshots",
+  "report_dir": "output/reports",
+  "logcat_lines": 2000,
+  "default_flow": "examples/muse-number-three.flow.json"
+}

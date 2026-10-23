@@ -1,0 +1,87 @@
+{
+  "name": "Muse Number 3 three-slot navigation check",
+  "package": "com.fedos.musenumberthree",
+  "manual_review": "Automated steps check that three slots render and swipe switching works. They do not prove that three accounts remain separate. A human/agent must review genuine screenshots from separate test-account sessions; never claim automated login isolation.",
+  "steps": [
+    {
+      "launch": {
+        "package": "com.fedos.musenumberthree"
+      }
+    },
+    {
+      "wait": {
+        "seconds": 5
+      }
+    },
+    {
+      "screenshot": {
+        "name": "slot-1"
+      }
+    },
+    {
+      "assert_foreground": {
+        "package": "com.fedos.musenumberthree"
+      }
+    },
+    {
+      "swipe": {
+        "direction": "left"
+      }
+    },
+    {
+      "wait": {
+        "seconds": 2
+      }
+    },
+    {
+      "screenshot": {
+        "name": "slot-2"
+      }
+    },
+    {
+      "swipe": {
+        "direction": "left"
+      }
+    },
+    {
+      "wait": {
+        "seconds": 2
+      }
+    },
+    {
+      "screenshot": {
+        "name": "slot-3"
+      }
+    },
+    {
+      "swipe": {
+        "direction": "right"
+      }
+    },
+    {
+      "wait": {
+        "seconds": 2
+      }
+    },
+    {
+      "screenshot": {
+        "name": "back-to-slot-2"
+      }
+    },
+    {
+      "key": {
+        "name": "BACK"
+      }
+    },
+    {
+      "wait": {
+        "seconds": 1
+      }
+    },
+    {
+      "assert_foreground": {
+        "package": "com.fedos.musenumberthree"
+      }
+    }
+  ]
+}
