@@ -1,8 +1,12 @@
 # MuseAi-Skill-apk-testing
 
+<img width="1279" height="698" alt="Screenshot 2026-10-23 192745" src="https://github.com/user-attachments/assets/5ce04429-0f44-42a7-afd1-b86519ad7f3e" />
+
 Muse tests the APK itself—on a virtual phone, with screenshots as proof.
 
 APK Tester Skill runs an Android APK on a configured Android Virtual Device (AVD), walks a JSON-defined flow, checks logcat, and produces a fixed-shape PASS/FAIL report. It does not require a physical phone.
+
+<img width="1280" height="694" alt="Screenshot 2026-10-23 192818" src="https://github.com/user-attachments/assets/ce923ab3-ce2c-4cd2-a979-f26b1780be05" />
 
 ## The test routine
 
@@ -11,7 +15,9 @@ APK Tester Skill runs an Android APK on a configured Android Virtual Device (AVD
 3. Boot the virtual phone if needed and install the APK.
 4. Launch it and capture screens as evidence.
 5. Walk the requested flow and check logcat for crashes.
-6. Save a report, screenshots, and logcat evidence, then clean up.
+6. Save a report, screenshots, and logcat evidence, then clean up.\
+
+<img width="1284" height="699" alt="Screenshot 2026-10-23 192842" src="https://github.com/user-attachments/assets/8410d531-2651-4b97-ad57-302a8d81d5fa" />
 
 ## Two parts
 
